@@ -1,82 +1,78 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
+    <link rel="stylesheet" href= "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href= style.CSS>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Abgezogen_haha_Bank - Login</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #b9b9b9;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-        }
-
-        #login-container {
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            text-align: center;
-        }
-
-        #logo {
-            max-width: 150px;
-        }
-
-        input {
-            margin: 10px 0;
-            padding: 8px;
-            width: 100%;
-            box-sizing: border-box;
-        }
-
-        button {
-            background-color: #007bff;
-            color: #fff;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-        }
-
-        #forgot-password {
-            margin-top: 10px;
-            display: block;
-        }
-
-        #face-id {
-            margin-top: 10px;
-            display: block;
-        }
-    </style>
+    <title>Abgezogen_haha_Bank</title>
 </head>
 <body>
+    <header>
+        <img src="bank_logo.png" alt="Bank XYZ Logo">
+        <nav>
+            <ul>
+                <li><a href="#ansprechpartner">Ansprechpartner</a></li>
+                <li><a href="#kontenuebersicht">Kontenübersicht</a></li>
+                <li><a href="#ueberweisung">Überweisung ausführen</a></li>
+                <li><a href="#hilfe"><img src="hilfe_icon.png" alt="Hilfe"></a></li>
+                <li><a href="#profil"><img src="profil_icon.png" alt="Profil"></a></li>
+                <li><a href="#postfach"><img src="postfach_icon.png" alt="Postfach"></a></li>
+                <li><a href="#agb"><img src="agb_icon.png" alt="AGB"></a></li>
+                <div class="flex-container">
+                    <div>1</div>
+                    <div>2</div>
+                    <div>3</div>  
+                    <div>4</div>
+                    <div>5</div>
+                    <div>6</div>  
+                    <div>7</div>
+                    <div>8</div>
+                    <div>9</div>  
+                    <div>10</div>
+                    <div>11</div>
+                    <div>12</div>  
+                  </div>
+            </ul>
+        </nav>
+    </header>
 
-    <div id="login-container">
-        <img id="logo" src="bank_logo.png" alt="Abgezogen_haha_Bank">
-        <h2>Mit deinem Account Anmelden</h2>
+    <section id="ansprechpartner">
+        <h2>Ansprechpartner</h2>
+        <!-- Hier können Sie die Kontaktinformationen für Ansprechpartner einfügen -->
+    </section>
 
-        <form action="login_process.php" method="post">
-            <input type="text" name="Benutzernamen" placeholder="Benutzernamen oder Email" required>
-            <input type="passwort" name="passwort" placeholder="Passwort" required>
-            
-            <!-- Optional: 2-Factor Authentication -->
-            <input type="text" name="2fa" placeholder="2-Factor Authentication Code">
+    <section id="kontenuebersicht">
+        <h2>Kontenübersicht</h2>
+        <p><a href="#konto1">Konto 1</a></p>
+        <p><a href="#konto2">Konto 2</a></p>
+        <!-- Hier können Sie Links zu den einzelnen Konten einfügen -->
+    </section>
 
-            <button type="submit">Anmelden</button>
-        </form>
+    <section id="konto1">
+        <h3>Konto 1</h3>
+        <!-- Hier können Sie die Transaktionen und Kontodetails für Konto 1 einfügen -->
+    </section>
 
-        <a href="forgot_password.html" id="forgot-password">Passwort vergessen?</a>
+    <section id="konto2">
+        <h3>Konto 2</h3>
+        <!-- Hier können Sie die Transaktionen und Kontodetails für Konto 2 einfügen -->
+    </section>
 
-        <button id="face-id">Login with Face ID</button>
+    <section id="ueberweisung">
+        <h2>Überweisung ausführen</h2>
+        <!-- Hier können Sie ein Formular für Überweisungen einfügen -->
+    </section>
 
-        <p><a href="index.html">Zurück zu Abgezogen_haha_Bank_Homepage</a></p>
-    </div>
-
+    <footer>
+        <ul>
+            <li><a href="#socialmedia">Social Media</a></li>
+            <li><a href="#bankhomepage">Bank Homepage</a></li>
+            <li><a href="#geschaeftsfuehrer">Geschäftsführer</a></li>
+            <li><a href="#geschaeftssitz">Geschäftssitz</a></li>
+            <li><a href="#rechtsform">Rechtsform</a></li>
+            <li>Kontaktdaten: Telefon: 01234 / Email: info@bankxyz.com</li>
+        </ul>
+    </footer>
 </body>
 </html>
